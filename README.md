@@ -1,4 +1,6 @@
-# dirichlet-v-mse
+# Repo contents:
+## Dirichlet-loss DNN and BNN
+## dirichlet-v-mse
 Julia code generating a comparison of NNs trained on MSE and Dirichlet loss functions. Adam is used to train both NNs, which are fully-connected with 5 hidden layers of width 5 and relu activation functions.
 
 * fake-o_data.jl - file generating data used to create results. uses RNG with unfixed seed.
