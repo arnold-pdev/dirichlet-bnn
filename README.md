@@ -1,5 +1,5 @@
 # Repo contents:
-## Dirichlet-loss DNN and BNN
+## Dirichlet-likelihood BNN with Horseshoe priors
 ## 1. dirichlet-v-mse
 Julia code generating a comparison of NNs trained on MSE and Dirichlet loss functions. Adam is used to train both NNs, which are fully-connected with 5 hidden layers of width 5 and relu activation functions.
 
@@ -11,3 +11,5 @@ Julia code generating a comparison of NNs trained on MSE and Dirichlet loss func
 Observation: Occasionally, models will converge to constant functions in both cases. DirichletViz.jl takes several (let's say 5) minutes to generate an animation. Animations are created using CairoMakie.jl through the function *dirichletanim*. The function *dirichletanime* was intended to represent training data in the animation through scatter, but is incomplete.
 
 ## 2. chemcam-bnn
+
+## 3. HMC visualization
