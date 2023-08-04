@@ -12,4 +12,5 @@ Observation: Occasionally, models will converge to constant functions in both ca
 
 ## 2. chemcam-bnn
 
-## 3. HMC visualization
+## 3. visualization
+Includes HMC and Dirichlet animation code, as well as a stand-alone, simple implementation of 2D HMC.
